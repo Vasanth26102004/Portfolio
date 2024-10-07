@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Rubik&display=swap');
+
+.home-container {
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+  min-width: auto;
+}
+.bg-img {
+  z-index: -1;
+  position: fixed;
+  opacity: 0.3;
+}
+.bg-img2 {
+  width: 300px;
+  z-index: -1;
+  position: fixed;
+  top: 65%;
+  left: 77%;
+  opacity: 0.3;
+}
+.user-info {
+  height: 550px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: inherit;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.user-info-text {
+  align-items: center;
+}
+.user-info-text span{
+  color: #9519cf;
+  font-size: 42px;
+}
+.user-info-text h2 {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  color: #ebc0ff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  padding: 1.5rem 0;
+}
+.user-info-text p {
+  color: #ebc0ff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+}
+.user-info-img {
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.user-info-img img{
+  width: 70%;
+}
+.intro{
+  display: flex;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+.intro-text{
+  width: 60%;
+  color: #ebc0ff;
+}
+.intro-text span{
+  color: #9519cf;
+  font-weight: 600;
+  font-style: italic;
+}
+.intro h3{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+  padding: 2rem;
+}
+.intro p{
+  text-transform: capitalize;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.intro-img img{
+  width: 100%;
+}
+
+.find-me{
+  color: #ebc0ff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom:5rem ;
+}
+.find-me span{
+  color: #9519cf;
+  font-weight: 600;
+  font-style: italic;
+}
+.find-me h1{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 34px;
+  text-align: center;
+}
+.find-me p{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.find-me-img{
+  position: relative;
+  top:1.5rem;
+  padding-bottom: 3rem;
+}
+.find-me-img a{
+  width: 100px;
+  background: #fff;
+  padding:10px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+}
+.find-me-img img{
+  top: 3px;
+  position: relative;
+  width: 15px;
+  text-align: center;
+}
+.find-me-img a:hover{
+  box-shadow: 0 0 7px #9519cf,0 0 5px #ebc0ff;
+  transition: all .2s ease-in-out;
+}
+
+@media(max-width:1024px){
+  .user-info h2{
+    font-size: 32px;
+  }
+.user-info span{
+  font-size: 36px
+}
+  .intro h3{
+    font-size: 24px;
+  }
+  .intro p{
+    font-size: 14px;
+  }
+  .find-me{
+
+  }
+}
+
+@media(max-width:768px){
+  .user-info h2{
+    font-size: 28px;
+    padding: .5rem;
+  }
+  .user-info span{
+    font-size: 32px
+  }
+  .user-info p{
+    font-size: 32px;
+    padding: 1rem;
+  }
+  .intro h3{
+    font-size: 22px;
+  }
+  .intro p{
+    font-size: 12px;
+    padding: .7rem;
+    margin-left: 20px;
+  }
+  .find-me{
+  }
+}
+@media(max-width:700px){
+  .user-info{
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .intro{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .intro p{
+    margin-left: 0;
+  }
+  .intro-text{
+    width: 90%;
+  }
+}
+
+@media(max-width:480){
+  .user-info{
+    
+  }
+  .intro{
+
+  }
+  .find-me{
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

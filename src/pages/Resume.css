@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Rubik&display=swap');
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.resume a{
+    all: unset;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background: #9519cf;
+    padding: 10px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.resume a:hover{
+    background: #490666;
+    transition: all .2s ease;
+}
+.resume a img{
+    position: relative;
+    top: 5px;
+}

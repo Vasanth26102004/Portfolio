@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mukta&family=Noto+Sans+JP:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: beige;
+}
+
+
+/*ABOUT CONTENT*/
+h1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-text{
+    height: 85vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: #9519cf;
+}
+.about-text .content{
+    width: 45vw;
+    display: block;
+    justify-content: space-between;
+}
+.content #text{
+  text-align: left;
+  color: #ebc0ff;
+  font-family: "Mukta", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.content ul{
+    padding: 1.5rem 0;
+}
+.content li{
+    margin-left: 5rem;
+    color: #ebc0ff;
+    font-family: "Mukta", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.content #slogan{
+    text-align: center;
+    color: #5e5e5e;
+    font-size: 20px;
+}
+.about-text .image{
+    width: 35vw;
+  align-items: center;
+  justify-content: center;
+}
+.image img{
+    width: 450px;
+}
+
+
+#skills,#tools{
+    padding: 5%;
+}
+
+/*LANGUAGES*/
+
+.langs{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;    
+}
+.langs span{
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: rgba(182, 182, 182, 0.055);
+    margin: 15px;
+    box-shadow: 3px 3px 10px #480865;
+    transition: all .3s ease;
+}
+.langs span:hover{ 
+    scale: 1.05;
+    box-shadow: 3px 3px 10px #6b0b98;
+    transition: all .3s ease;
+}
+.langs img{
+    padding: 1.5rem 0;
+    height: 80px;
+}
+
+/*TOOLS*/
+
+.tools{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.tools span{
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: rgba(182, 182, 182, 0.055);
+    margin: 15px;
+    box-shadow: 3px 3px 10px #480865;
+    transition: all .3s ease;
+}
+.tools span:hover{
+    scale: 1.05;
+    box-shadow: 3px 3px 10px #6b0b98;
+    transition: all .3s ease;
+}
+.tools img{
+    padding: 1.5rem 0;
+    height: 80px;
+}
+
+@media(max-width:1024px ){}

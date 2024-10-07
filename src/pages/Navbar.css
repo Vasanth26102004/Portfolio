@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit&family=Permanent+Marker&display=swap');
+
+.navbar {
+  z-index: 10;
+  width: 100%;
+  height: min-content;
+  position: sticky;
+  top: -10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  margin-top: 25px;
+  transition: all .2s ease-in-out;
+}
+.navbar.active{
+  background: linear-gradient(rgba(255, 255, 255, 0),rgba(78, 78, 78, 0.531) );
+  background-size: cover;
+  backdrop-filter: blur(8px);
+  transition: all .2s ease-in-out;
+}
+
+
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-logo p {
+  color: #7d0d9f;
+  font-family: "Itim", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 66px;
+}
+
+.nav-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+  left: 10%;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-menu li {
+  position: relative;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.nav-menu li img{
+  position: relative;
+  top:5px ;
+  padding-right: 3px;
+  align-items: center;
+}
+.nav-menu li p{
+  color: #fff;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.nav-menu li:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  border-radius: 15px;
+  left: 0%;
+  position: absolute;
+  background: #8907ca;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-menu li:hover:after {
+  width: 95%;
+  left: 2.5%;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.nav-github {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-github button {
+  width: 100px;
+  height: 38px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 5px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.nav-github img{
+  fill: red;
+}
+
+.nav-github button:hover {
+  background: #c777df;
+  border-radius: 10px ;
+  box-shadow: 0 1px 7px rgb(157, 18, 212);
+  transition: all .3s ease;
+}
+
+.nav-dropdown {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .navbar {
+    padding: 12px 20px;
+  }
+
+  .nav-logo img {
+    width: 40px;
+  }
+
+  .nav-logo p {
+    font-size: 25px;
+  }
+
+  .nav-menu {
+    gap: 30px;
+    font-size: 16px;
+  }
+
+  .nav-login-cart {
+    gap: 30px;
+  }
+  .nav-login-cart button {
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .nav-cart-count {
+    margin-left: -40px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 12px 30px;
+  }
+
+  .nav-menu {
+    gap: 25px;
+    font-size: 14px;
+  }
+
+  .nav-login-cart button {
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  .nav-login-cart img {
+    width: 30px;
+  }
+
+  .nav-cart-count {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 10px 0px;
+  }
+
+  .nav-dropdown {
+    display: flex;
+    width: 30px;
+    transform: rotate(0deg);
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu {
+    display: none;
+    height: max-content;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:10px;
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(78, 78, 78, 0.531) );
+    backdrop-filter: blur(8px);
+    padding: 2rem 0;
+  }
+  .nav-menu-active {
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+  }
+  .nav-dropdown.open {
+    transform: rotate(90deg);
+    transition: all 0.5s ease;
+  }
+  
+.nav-menu li:after {
+  width: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.nav-menu li:hover:after {
+  width: 20%;
+  left: 50.5%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+}
