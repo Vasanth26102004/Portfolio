@@ -1,26 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Rubik&display=swap");
 
 .home-container {
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1400px;
   min-width: auto;
 }
-.bg-img {
-  z-index: -1;
-  position: fixed;
-  opacity: 0.3;
-}
-.bg-img2 {
-  width: 300px;
-  z-index: -1;
-  position: fixed;
-  top: 65%;
-  left: 77%;
-  opacity: 0.3;
-}
+
+/*USER-INFO SECTION*/
+
 .user-info {
-  height: 550px;
+  max-height: 700px;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -28,26 +22,39 @@
   justify-content: space-evenly;
   align-items: center;
 }
+.bg-img {
+  left: 20%;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.1;
+}
 .user-info-text {
   align-items: center;
 }
-.user-info-text span{
-  color: #9519cf;
+.user-info-text span {
   font-size: 42px;
 }
 .user-info-text h2 {
+  word-spacing: 10px;
   text-align: left;
   justify-content: center;
   align-items: center;
   color: #ebc0ff;
   font-family: "Rubik", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-size: 36px;
-  padding: 1.5rem 0;
+}
+.user-info-text h2 #name {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .user-info-text p {
   color: #ebc0ff;
+  padding: 3rem 0;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -59,10 +66,13 @@
   align-items: center;
   justify-content: center;
 }
-.user-info-img img{
+.user-info-img img {
   width: 70%;
 }
-.intro{
+
+/*INTRO SECTION*/
+
+.intro {
   display: flex;
   height: 550px;
   justify-content: center;
@@ -70,195 +80,187 @@
   line-height: 1.5rem;
   padding-bottom: 2rem;
 }
-.intro-text{
+.intro-text {
   width: 60%;
   color: #ebc0ff;
 }
-.intro-text span{
-  color: #9519cf;
+.intro-text span {
   font-weight: 600;
   font-style: italic;
 }
-.intro h3{
+.intro h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: "Questrial", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
   padding: 2rem;
 }
-.intro p{
+.intro p {
   text-transform: capitalize;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
+  letter-spacing: 1px;
   justify-content: center;
   align-items: center;
   padding: 1rem;
 }
-.intro-img img{
+.intro-img img {
   width: 100%;
 }
 
-.find-me{
+/*FIND-ME SECTION*/
+
+.find-me {
   color: #ebc0ff;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-bottom:5rem ;
+  padding: 5rem 0;
 }
-.find-me span{
-  color: #9519cf;
+.find-me span {
   font-weight: 600;
   font-style: italic;
 }
-.find-me h1{
+.find-me h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: "Questrial", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 34px;
+  font-size: 36px;
   text-align: center;
 }
-.find-me p{
+.find-me p {
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 1rem;
 }
-.find-me-img{
+.find-me-img {
   position: relative;
-  top:1.5rem;
+  top: 1.5rem;
   padding-bottom: 3rem;
 }
-.find-me-img a{
+.find-me-img a {
+  all: unset;
   width: 100px;
   background: #fff;
-  padding:10px;
+  padding: 7px;
   margin: 10px;
   border-radius: 50%;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.find-me-img img{
+.find-me-img img {
   top: 3px;
   position: relative;
   width: 15px;
   text-align: center;
+  transition: all 0.4s ease-in;
 }
-.find-me-img a:hover{
-  box-shadow: 0 0 7px #9519cf,0 0 5px #ebc0ff;
-  transition: all .2s ease-in-out;
+.find-me-img a:hover {
+  box-shadow: 0 0 11px 2px #9519cf, 0 0 5px 1px #ebc0ff;
+  transition: all 0.4s ease-out;
 }
 
-@media(max-width:1024px){
-  .user-info h2{
+/*MEDIA QUERIES*/
+
+@media (max-width: 1024px) {
+  .user-info-text h2 {
     font-size: 32px;
   }
-.user-info span{
-  font-size: 36px
-}
-  .intro h3{
+  .user-info-text span {
+    font-size: 36px;
+  }
+
+  .intro h3 {
     font-size: 24px;
   }
-  .intro p{
+  .intro p {
     font-size: 14px;
   }
-  .find-me{
-
-  }
 }
 
-@media(max-width:768px){
-  .user-info h2{
+@media (max-width: 768px) {
+  .user-info,
+  .intro {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .user-info-text h2 {
     font-size: 28px;
-    padding: .5rem;
+    padding: 0.5rem;
   }
-  .user-info span{
-    font-size: 32px
-  }
-  .user-info p{
+  .user-info-text span {
     font-size: 32px;
+  }
+  .user-info-text p {
+    font-size: 20px;
     padding: 1rem;
   }
-  .intro h3{
+
+  .intro h3 {
     font-size: 22px;
   }
-  .intro p{
+  .intro p {
     font-size: 12px;
-    padding: .7rem;
-    margin-left: 20px;
+    padding: 0.7rem;
   }
-  .find-me{
-  }
-}
-@media(max-width:700px){
-  .user-info{
-    height: fit-content;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-  }
-  .intro{
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-  }
-  .intro p{
-    margin-left: 0;
-  }
-  .intro-text{
+  .intro-text {
     width: 90%;
   }
 }
 
-@media(max-width:480){
-  .user-info{
-    
+@media (max-width: 480px) {
+  .user-info {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
   }
-  .intro{
-
+  .user-info-text span {
+    font-size: 28px;
   }
-  .find-me{
+  .user-info-text h2 {
+    font-size: 24px;
+  }
+  .user-info-text p {
+    font-size: 18px;
+  }
+  .user-info-img img {
+    width: 80%;
+  }
 
+  .intro {
+    flex-direction: column;
+    height: auto;
+  }
+  .intro h3 {
+    font-size: 20px;
+  }
+  .intro p {
+    font-size: 14px;
+  }
+
+  .find-me h1 {
+    font-size: 28px;
+  }
+  .find-me p {
+    font-size: 12px;
+  }
+  .find-me-img a {
+    padding: 5px;
+  }
+  .find-me-img img {
+    top: 3px;
+    width: 15px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

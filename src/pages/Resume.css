@@ -1,36 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Rubik&display=swap");
 
-.resume{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3rem;
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
 }
-.resume a{
-    all: unset;
-    position: relative;
-    width: 200px;
-    height: 30px;
-    background: #9519cf;
-    padding: 10px;
-    font-family: "Rubik", sans-serif;
-    font-style: normal;
-    font-size: 22px;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
+.resume a {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 200px;
+  height: 30px;
+  background: #9519cf;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.resume a:hover {
+  background: #490666;
+  transition: all 0.2s ease;
+}
+.resume #image {
+  width: 800px;
+}
+.resume a img {
+  position: relative;
+}
+@media (max-width: 1024px) {
+    .resume #image{
+        width: 700px;
+    }
+}
+@media (max-width: 768px) {
+  .resume #image {
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .resume a {
     text-align: center;
-    border-radius: 10px;
-    margin: 2rem;
-    transition: all .2s ease;
-    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+    height: 25px;
+    padding: 7px;
+  }
+  .resume a img{
+    width: 20px;
+  }
 }
-.resume a:hover{
-    background: #490666;
-    transition: all .2s ease;
-}
-.resume a img{
-    position: relative;
-    top: 5px;
+
+@media (max-width: 480px) {
+  .resume #image {
+    width: 90%;
+    max-width: 360px;
+  }
+
+  .resume a {
+    text-align: center;
+    width: 120px;
+    font-size: 14px;
+    height: 22px;
+    padding: 5px;
+  }
+  .resume a img{
+    width: 18px;
+  }
 }

@@ -11,7 +11,7 @@ import Footer from "./pages/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className='App-Container'>
       <BrowserRouter>
         <Navbar />
         <Routes>

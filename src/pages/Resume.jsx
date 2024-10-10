@@ -17,7 +17,7 @@ const Resume = () => {
           <img src={download} alt="" />
           Download
       </a>
-      <img src={resumeimg} alt="" width='800px'/>
+      <img id="image" src={resumeimg} alt="" />
       <a href={resume}>
           <img src={download} alt="" />
           Download

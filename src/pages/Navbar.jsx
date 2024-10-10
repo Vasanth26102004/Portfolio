@@ -28,6 +28,7 @@ const navbar = () => {
       } 
     });
   });
+
   return (
       <div className="navbar">
         <div className="nav-logo">
@@ -63,8 +64,8 @@ const navbar = () => {
           </li>
         </ul>
         <div className="nav-github">
-          <a href="">
-            <button><img src={codebranch} alt="" width='30px'/></button>
+          <a href="https://github.com/Vasanth26102004 ">
+            <button><img src={codebranch} alt="" /></button>
           </a>
         </div>
       </div>

@@ -14,23 +14,23 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home-container">
-      <img className="bg-img" src={bggif} alt="" />
-      <img className="bg-img2" src={bggif2} alt="" />
       <div className="user-info">
+      <img className="bg-img" src={bggif} alt="" />
         <div className="user-info-text">
           <h2>
-            <span>Hi!</span> there<span>!</span>
+            <span>Hi!</span> There<span>!</span>
             <img />
           </h2>
           <h2>
-            I'm <span>Vasanth</span>
+            I'm <span id="name">Vasanth</span>
           </h2>
-          <p className="roles">Web Developer</p>
+          <p id="roles">Web Developer</p>
         </div>
-        <div className="user-info-img">
+        <div id="user-info-img">
           <img src={gif1} alt="" />
         </div>
       </div>
+
       <div className="intro">
         <div className="intro-text">
           <h3>
@@ -45,7 +45,7 @@ const Home = () => {
             something, I think… 🤷‍♂️
           </p>
           <p>
-            I am fluent in classics like <span> Java, Javascript and Python </span>.
+            I am fluent in classics like <span> Java, Javascript and Python</span>.
           </p>
           <p>
             My field of Interest's are building new 
@@ -63,6 +63,7 @@ const Home = () => {
           <img src={pfp} alt="" />
         </div>
       </div>
+      
       <div className="find-me">
         <h1>find me on</h1>
         <p>Feel free to <span> connect </span> with me</p>

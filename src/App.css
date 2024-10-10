@@ -12,6 +12,17 @@ body {
   top: 1;
 }
 
+span {
+  color: #9519cf;
+}
+
+.App-Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 ::-webkit-scrollbar{
 width: 7px;
 height: 7px;
