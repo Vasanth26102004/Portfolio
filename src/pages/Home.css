@@ -60,13 +60,13 @@
   font-style: normal;
   font-size: 28px;
 }
-.user-info-img {
+#user-info-img {
   text-align: center;
   display: block;
   align-items: center;
   justify-content: center;
 }
-.user-info-img img {
+#user-info-img img {
   width: 70%;
 }
 
@@ -235,7 +235,7 @@
   .user-info-text p {
     font-size: 18px;
   }
-  .user-info-img img {
+  #user-info-img img {
     width: 80%;
   }
 

@@ -1,7 +1,6 @@
 import React from "react";
 import gif1 from "../assets/gif/gif1.gif";
 import bggif from "../assets/gif/gear1.gif";
-import bggif2 from "../assets/gif/minion.gif";
 import pfp from "../assets/pfp.png";
 
 import ig from "../assets/svg/instagram.svg";
