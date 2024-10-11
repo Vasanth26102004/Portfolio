@@ -31,23 +31,26 @@
   background: #490666;
   transition: all 0.2s ease;
 }
-.resume #image {
-  width: 800px;
-}
 .resume a img {
   position: relative;
 }
+.resume #image {
+  width: 800px;
+}
+
+/*MEDIA QUERIES*/
+
 @media (max-width: 1024px) {
     .resume #image{
         width: 700px;
     }
 }
+
 @media (max-width: 768px) {
   .resume #image {
     width: 100%;
     max-width: 550px;
   }
-
   .resume a {
     text-align: center;
     width: 150px;
@@ -60,12 +63,13 @@
   }
 }
 
+/*MEDIA QUERIES*/
+
 @media (max-width: 480px) {
   .resume #image {
     width: 90%;
     max-width: 360px;
   }
-
   .resume a {
     text-align: center;
     width: 120px;
