@@ -146,12 +146,17 @@
 }
 .find-me-img {
   position: relative;
+  display: flex;
+  flex-direction: row;
   top: 1.5rem;
   padding-bottom: 3rem;
 }
 .find-me-img a {
   all: unset;
-  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #fff;
   padding: 7px;
   margin: 10px;
@@ -159,9 +164,8 @@
   transition: all 0.2s ease-in-out;
 }
 .find-me-img img {
-  top: 3px;
   position: relative;
-  width: 15px;
+  width: 16px;
   text-align: center;
   transition: all 0.4s ease-in;
 }
@@ -260,7 +264,6 @@
     padding: 5px;
   }
   .find-me-img img {
-    top: 3px;
     width: 15px;
   }
 }
