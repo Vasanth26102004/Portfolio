@@ -12,10 +12,10 @@ const ProjectItem = (props) => {
       <p id="technologies">{props.technologies}</p>
       <div className="project-btn">
         <a href={props.repo}>
-          <button className="repo-btn">GitHub</button>
+          <button id="repo-btn">GitHub</button>
         </a>
         <a href={props.preview}>
-          <button className="preview-btn">Demo</button>
+          <button id="preview-btn">Demo</button>
         </a>
       </div>
     </div>
