@@ -175,7 +175,8 @@ h1 {
     justify-content: center;
     width: 90vw;
   }
-  .about-content .image {
+  .about-content .image{
+    border: 2px solid white;
     margin-top: 3rem;
     width: 70vw;
   }
