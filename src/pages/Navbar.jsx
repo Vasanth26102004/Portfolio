@@ -64,7 +64,7 @@ const navbar = () => {
           </li>
         </ul>
         <div className="nav-github">
-          <a href="https://github.com/Vasanth26102004 ">
+          <a href="https://github.com/Vasanth26102004/Portfolio ">
             <button><img src={codebranch} alt="" /></button>
           </a>
         </div>

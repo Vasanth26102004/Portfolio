@@ -12,6 +12,10 @@ h1 {
   font-style: normal;
   font-weight: 400;
 }
+.about-container{
+  max-width: 1600px;
+  margin:7vh 0 7vh 0;
+}
 
 /* ABOUT CONTENT */
 .about-content {
@@ -19,7 +23,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .about-content .about-text {
   width: 45vw;
@@ -68,7 +72,7 @@ h1 {
 
 #skill-text,
 #tool-text {
-  padding: 5%;
+  padding: 3rem 0 1.5rem 0;
 }
 
 .langs,

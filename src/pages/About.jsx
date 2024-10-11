@@ -108,7 +108,7 @@ const About = () => {
       </div>
 
       <div className="about-tools">
-        <h1 id="tools-text">
+        <h1 id="tool-text">
           <span>Tools</span> I Use
         </h1>
         <div className="tools">
