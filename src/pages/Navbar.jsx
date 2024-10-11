@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useContext, useEffect } from "react";
 import { useRef } from "react";
 import "./Navbar.css"
-import menu_icon from "../Assets/svg/menu.svg";
+import menu_icon from "../assets/svg/menu.svg";
 import home from "../assets/svg/home.svg";
 import person from "../assets/svg/person.svg";
 import dev from "../assets/svg/developer_mode_tv.svg";
