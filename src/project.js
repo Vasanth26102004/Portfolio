@@ -1,4 +1,4 @@
-const project = [
+3const project = [
   {
     id: "1",
     name: "Whack-A-Mole",
@@ -20,13 +20,13 @@ const project = [
     technologies: "HTML, CSS, JAVASCRIPT",
   },
   {
-    id: "1",
-    name: "Whack-A-Mole",
+    id: "3",
+    name: "Rock-Paper-Scissor",
     description:
-      "This is a Simple Whack-A-Mole Game that was created using Javascript. It is a simple game where you have to hit the mole that pops up from the hole and Avoid the Man Eater Plant. ",
+      "Rock Paper Scissors is a simple and well-known hand game often used as a decision-making tool. It is typically played between two people, each of whom simultaneously forms one of three possible shapes with an outstretched hand. ",
     image: "https://www.marketjs.com/item/whack-a-mole/whack-a-mole.jpg",
-    repo: "https://github.com/Vasanth26102004/Whack-A-Mole.git",
-    preview: "https://vasanth26102004.github.io/Whack-A-Mole/",
+    repo: "https://github.com/Vasanth26102004/RockPaperScissor.git",
+    preview: "https://vasanth26102004.github.io/RockPaperScissor/",
     technologies: "HTML, CSS, JAVASCRIPT",
   },
   {
