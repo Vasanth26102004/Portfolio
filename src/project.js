@@ -1,4 +1,4 @@
-3const project = [
+const project = [
   {
     id: "1",
     name: "Whack-A-Mole",
