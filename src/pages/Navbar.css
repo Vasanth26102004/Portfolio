@@ -15,10 +15,8 @@
   transition: all 1s ease-in-out;
 }
 .navbar.active {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(78, 78, 78, 0.531));
+  background: linear-gradient(rgba(255, 255, 255, 0), #5b03ad);
   background-size: cover;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
   transition: all 1s ease-in-out;
 }
 
