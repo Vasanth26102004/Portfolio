@@ -10,7 +10,7 @@ const project = [
     technologies: "HTML, CSS, JAVASCRIPT",
   },
   {
-    id: "1",
+    id: "2",
     name: "Calculator",
     description:
       "This is a Simple Calculater using Javascript with Basic Arithmatic Operations such as Addition Subraction Multiplication & Division.",
