@@ -3,10 +3,9 @@ import "./ProjectItem.css";
 
 const ProjectItem = (props) => {
   return (
-    import image from {props.image}
     <div className="project-element">
       <div className="laptop">
-        <img src={image} alt="" />
+        <img src={props.image} alt="" />
       </div>
       <h2 id="name">{props.name}</h2>
       <p id="description">{props.description}</p>
