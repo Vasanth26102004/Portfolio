@@ -2,7 +2,9 @@ import React from "react";
 import "./ProjectItem.css";
 
 const ProjectItem = (props) => {
+  
   return (
+
     <div className="project-element">
       <div className="laptop">
         <img src={props.image} alt="" />
