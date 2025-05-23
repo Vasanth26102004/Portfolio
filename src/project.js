@@ -4,7 +4,7 @@ const project = [
     name: "Whack-A-Mole",
     description:
       "This is a Simple Whack-A-Mole Game that was created using Javascript. It is a simple game where you have to hit the mole that pops up from the hole and Avoid the Man Eater Plant. ",
-    image: "./src/assets/shots/whack-a-mole.png",
+    image: "././src/assets/shots/whack-a-mole.png",
     repo: "https://github.com/Vasanth26102004/Whack-A-Mole.git",
     preview: "https://vasanth26102004.github.io/Whack-A-Mole/",
     technologies: "HTML, CSS, JAVASCRIPT",
@@ -14,7 +14,7 @@ const project = [
     name: "Calculator",
     description:
       "This is a Simple Calculater using Javascript with Basic Arithmatic Operations such as Addition Subraction Multiplication & Division.",
-    image: "./src/assets/shots/calculater.png",
+    image: "../src/assets/shots/calculater.png",
     repo: "https://github.com/Vasanth26102004/Calculater",
     preview: "https://vasanth26102004.github.io/Calculater/",
     technologies: "HTML, CSS, JAVASCRIPT",
@@ -24,7 +24,7 @@ const project = [
     name: "Shopper",
     description:
       "This is a Simple Whack-A-Mole Game that was created using Javascript. It is a simple game where you have to hit the mole that pops up from the hole and Avoid the Man Eater Plant. ",
-    image: "./src/assets/shots/shopper.png",
+    image: ".././src/assets/shots/shopper.png",
     repo: "https://github.com/Vasanth26102004/Whack-A-Mole.git",
     preview: "",
     technologies: "HTML, CSS, JAVASCRIPT",
